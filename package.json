@@ -1,0 +1,44 @@
+{
+  "name": "postcss-playground",
+  "version": "0.0.1",
+  "description": "fully postcss-driven css processing",
+  "main": "gulpfile.js",
+  "scripts": {
+    "postcss": "postcss -o public/css/cssnano.css src/css/cssnano.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ponchofreedo/postcss-playground.git"
+  },
+  "keywords": [
+    "portfolio",
+    "designer"
+  ],
+  "author": "@ponchofreedo <zach.freed@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ponchofreedo/postcss-playground/issues"
+  },
+  "homepage": "https://github.com/ponchofreedo/postcss-playground",
+  "_comment": "css-mqpacker ^6.0.2 removed temporarily",
+  "dependencies": {
+    "cssnano": "^3.10.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "postcss": "^6.0.22",
+    "run-sequence": "^2.2.1"
+  },
+  "devDependencies": {
+    "gulp-if": "^2.0.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-size": "^3.0.0",
+    "postcss-advanced-variables": "^2.3.3",
+    "postcss-apply": "^0.10.0",
+    "postcss-calc": "^6.0.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
+    "postcss-nested-props": "^2.0.0",
+    "postcss-preset-env": "^5.1.0"
+  }
+}
