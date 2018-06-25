@@ -1,7 +1,7 @@
 {
-  "name": "stimpleport",
+  "name": "postcss-playground",
   "version": "0.0.1",
-  "homepage": "https://github.com/ponchofreedo/stimpleport",
+  "homepage": "https://github.com/ponchofreedo/postcss-playground",
   "license": "MIT",
   "ignore": [
     "**/.*",
